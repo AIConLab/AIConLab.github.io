@@ -84,6 +84,29 @@ body {
 
 
 /* Text styles */
+.text {
+    display: block;
+    white-space: pre-line;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #374151;
+    max-width: 65ch; /* Optimal line length for readability */
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+
+/* Description text styles */
+.description-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #374151;
+}
+
+.description-text p {
+    margin-bottom: 1.5rem;
+}
+
 
 .email {
     font-size: 0.875rem;
